@@ -1,0 +1,29 @@
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.sec-sub-title {
+    text-transform: uppercase;
+    display: inline-block;
+    background: #f3f3f5;
+    box-shadow: 9px 9px 12px #e4e4e4, -9px -9px 12px #ffffff;
+    padding: 3px 20px;
+    border-radius: 60px;
+    color: #ff8243;
+    font-size: 14px;
+}
+
+.h2-title {
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.h2-title span, .h3-title span, .h4-title span, .h5-title span, .sub-title span {
+    display: block;
+}

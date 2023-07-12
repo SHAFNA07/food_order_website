@@ -1,0 +1,73 @@
+<div class="container p-5 border bg-light w-75">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="text-center p-2">Edit food Details</h2>
+        <form (ngSubmit)="updatefood(updateFoodForm)" action="" #updateFoodForm="ngForm">
+
+            <div class="form-group">
+                <label for="product-name"> id</label>
+                <input [(ngModel)]="fdata.id"  type="text" class="form-control" id="product-id" name="product-id" required>
+              </div>
+              <br>
+            
+          <div class="form-group">
+            <label for="product-name">food Name:</label>
+            <input [(ngModel)]="fdata.productName"  type="text" class="form-control" id="product-name" name="product-name" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-price"> Price:</label>
+            <input [(ngModel)]="fdata.price"  type="text" class="form-control" id="product-price" name="product-price" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-description">calories:</label>
+            <input [(ngModel)]="fdata.calories"   class="form-control" id="calories" name="calories" required>
+          </div>
+
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Category id: </label>
+            <input [(ngModel)]="fdata.categoryId"   type="text" class="form-control" id="Category-id" name="Category-id" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name"> Rating:</label>
+            <input  [(ngModel)]="fdata.rating"  type="text" class="form-control" id="product-rating" name="product-rating" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Type:</label>
+            <input  [(ngModel)]="fdata.type"  type="text" class="form-control" id="product-review" name="product-review" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Persons:</label>
+            <input [(ngModel)]="fdata.persons"   type="text" class="form-control" id="product-vendor" name="product-vendor" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-image">   Image:   </label>
+            <input [(ngModel)]="fdata.productImg"   id="product-image" name="product-image"  required>
+            <img src="" alt="">
+          </div>
+
+          <br>
+          <br>
+          <button
+            style="text-decoration: none; color: rgb(226, 39, 6);"  type="submit" class="btn btn-outline-secondary ; text-center"> Update food
+        
+            
+          </button>  
+        </form>
+      </div>
+    </div>
+  </div>
+  

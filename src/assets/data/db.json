@@ -1,0 +1,76 @@
+{
+  "foods": [
+    {
+      "id": 2,
+      "productName": "Bread Boiled Egg",
+      "categoryId": "1",
+      "calories": "100 ",
+      "price": "Rs.130",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/02T7szHq/5.png",
+      "rating": 5,
+      "type": "Non-veg",
+      "persons": 1
+    },
+    {
+      "id": 3,
+      "productName": "paneer noodles",
+      "categoryId": "2",
+      "calories": "120 ",
+      "price": "Rs.149",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/yN3CHnJd/3.png",
+      "rating": 4,
+      "type": "veg",
+      "persons": 2
+    },
+    {
+      "id": 4,
+      "productName": "chicken noodles",
+      "categoryId": "2",
+      "calories": "120 ",
+      "price": "Rs.379",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/SQfFknKW/4.png",
+      "rating": 4.5,
+      "type": "Non-veg",
+      "persons": 2
+    },
+    {
+      "id": 5,
+      "productName": "Immunity Dish",
+      "categoryId": "3",
+      "calories": "120 ",
+      "price": "Rs.159",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/YCc1RC1s/6.png",
+      "rating": 5,
+      "type": "veg",
+      "persons": 2
+    },
+    {
+      "id": 6,
+      "productName": "Grilled Chicken",
+      "categoryId": "3",
+      "calories": "80 ",
+      "price": "Rs.359",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/W48gsmxB/2.png",
+      "rating": 4.3,
+      "type": "Non-veg",
+      "persons": 1
+    },
+    {
+      "id": "7",
+      "productName": "pizza",
+      "categoryId": "",
+      "calories": "120",
+      "price": 400,
+      "is_available": "",
+      "productImg": "https://i.postimg.cc/LXfS0JKH/pizza.png",
+      "rating": "4.5",
+      "type": "veg",
+      "persons": "2"
+    }
+  ]
+}

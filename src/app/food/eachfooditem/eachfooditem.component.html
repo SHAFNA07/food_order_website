@@ -1,0 +1,40 @@
+<div class="py-5" style="background-image: url(assets/images/menu-bg.png);"
+class="our-menu section bg-light repeat-img" id="menu"> 
+<div class="sec-wp">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sec-title text-center mb-5">
+                    
+                    <h2 class="h2-title">wake up early, <span>eat fresh & healthy</span></h2>
+                    
+                </div>
+            </div>
+        </div>
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{fdata.productImg}}" alt="..." /></div>
+            <div class="col-md-6">
+                <div class="small mb-1"></div>
+                <h1 class="display-5 fw-bolder">{{fdata.productName}}</h1>
+                <div class="fs-5 mb-5">
+                    <span class="text-decoration"> Price <strong> {{fdata.price}} </strong> </span> <br>
+                    <span> Rating   {{fdata.rating}}</span>
+                </div>
+                <p class="lead">{{fdata.calories}} calories</p>
+                <h6>Type:  {{fdata.type}}</h6>
+                <h6> Persons : {{fdata.persons}}</h6>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light border flex-shrink-0 ms-3" type="button">
+                        <a style="text-decoration: none;  color: rgb(202, 47, 8);" href="food/edit-food/{{fdata.id}}"> Edit</a>
+                        
+                    </button>   
+                    <button class="btn btn-outline-light border flex-shrink-0 ms-3" type="button">
+                        <a style=" text-decoration: none;  color: rgb(202, 47, 8);" href="food/delete-food/{{fdata.id}}"> Delete</a>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

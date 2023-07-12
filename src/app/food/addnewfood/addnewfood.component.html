@@ -1,0 +1,83 @@
+<div class="container p-5 border bg-light w-75">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="text-center p-2">Add New food</h2>
+        <form  (ngSubmit)="addfood()"   [formGroup]="addfoodform"  action="/add-product" method="POST">
+
+            <div class="form-group">
+                <label for="product-name"> id</label>
+                <input formControlName="id"   type="text" class="form-control" id="product-name" name="product-name" required>
+              </div>
+              <br>
+            
+          <div class="form-group">
+            <label for="product-name">food Name:</label>
+            <input formControlName="productName"  type="text" class="form-control" id="product-name" name="product-name" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-price"> Price:</label>
+            <input formControlName="price" type="number" class="form-control" id="product-price" name="product-price" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-description">calories:</label>
+            <input  formControlName="calories" class="form-control" id="calories" name="calories" required>
+          </div>
+
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Category id: </label>
+            <input formControlName="CategoryId"  type="text" class="form-control" id="Category-id" name="Category-id" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name"> Rating:</label>
+            <input  formControlName="rating" type="text" class="form-control" id="product-rating" name="product-rating" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Type:</label>
+            <input  formControlName="type" type="text" class="form-control" id="product-review" name="product-review" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Persons:</label>
+            <input formControlName="persons"  type="text" class="form-control" id="product-vendor" name="product-vendor" required>
+          </div>
+          <br>
+
+          
+          <div class="form-group">
+            <label for="product-name">Product availability:</label>
+            <input formControlName="is_availabile" type="text" class="form-control" id="availability" name="availability" required>
+          </div>
+          <br>
+
+
+          
+
+          <div class="form-group">
+            <label for="product-image">   Image:   </label>
+            <input formControlName="productImg" id="product-image" name="product-image"  required>
+            <img src="" alt="">
+          </div>
+
+          <br>
+          <br>
+          <button
+            style="text-decoration: none; color: rgb(226, 39, 6);"  type="submit" class="btn btn-outline-secondary ; text-center"> Add food
+        
+            
+          </button>  
+        </form>
+      </div>
+    </div>
+  </div>
+  
